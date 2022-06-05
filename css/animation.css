@@ -1,0 +1,65 @@
+@keyframes day-night{
+   0%{
+      background-color: #a4e1fd;
+   } 
+   50%{
+      background-color: hsla(0, 0%, 0%, 0.911);
+   }
+   100%{
+     background-color: #a4e1fd;
+   }
+  }
+
+  @keyframes tail{
+   0%{
+      width: 0px;
+   }
+   30%{
+      width: 100px;
+   }
+   100%{
+      width: 0;
+   }
+}
+
+@keyframes falling{
+   0%{
+   transform: translateX(0);
+   
+}
+100%{
+   transform: translateX(450px);
+
+}
+}
+
+
+@keyframes shining {
+   0%{
+      width: 0;
+   }
+   50%{
+      width: 30px;
+   }
+   100%{
+      width: 0;
+   }
+}
+
+@keyframes caranimation-right{
+   0%{
+      left: 0;
+   }
+   100%{
+      left: 100%;
+   }
+}
+
+@keyframes caranimation-left{
+   0%{
+      right: 0;
+   }
+   100%{
+      right: 100%;
+   }
+}
